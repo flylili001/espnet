@@ -9,8 +9,8 @@ train_set="train"
 valid_set="dev"
 test_sets="test dev"
 
-asr_config=conf/train_asr_transformer.yaml
-lm_config=conf/train_lm_adam.yaml
+asr_config=conf/train_asr.yaml
+lm_config=conf/train_lm.yaml
 inference_config=conf/decode_asr.yaml
 
 stage=10
